@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Arbol binario</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+</head>
+<body>
+    <div class="box">
+        <div>
+            <legend>Analizador de expresiones aritméticas </legend>
+            <p>Ingresa la expresion:</p>
+        </div>
+        <div>
+            <Input type="text" id="expresion" placeholder="Ingresa expresion"></Input>
+        </div>
+        <div>
+            <button id="ingresar">Ingresar</button>
+        </div>
+        <div>
+            <p>Resultado:</p>
+        </div>
+        <div>
+            <p>PreOrder</p>
+            <input id="preOrder"></input>
+            <p>PostOrder</p>
+            <input type="text" id="postOrder" name="postOrder">
+        </div>
+    <div>
+        <p>Resolver PreOrder</p>
+        <input type="text" id="exPreOrder" placeholder="Ingresa expresion PostOrder"></input>
+        <button id="calPreOrder">Resolver</button>
+        <input id="resPreOrder" placeholder="Resultado PreOrder"></input>
+    </div>
+    <div>
+        <p>Resolver PostOrder</p>
+        <input type="text" id="exPostOrder" placeholder="Ingresa expresion PostOrder"></input>
+        <button id="calPostOrder">Resolver</button>
+        <input id="resPostOrder" placeholder="Resultado PostOrder"></input>
+    </div>
+    </div>
+
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
